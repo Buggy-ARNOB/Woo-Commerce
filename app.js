@@ -1,6 +1,6 @@
 let price = 0;
 let cartStorage = 0;
-const addToCart = (para) => {
+const cart = (para) => {
     cartStorage++;
     document.getElementById('totalProduct').innerText = cartStorage;
     price = price + para;
