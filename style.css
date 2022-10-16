@@ -1,0 +1,191 @@
+.body {
+    background-color: #B7C4CF;
+    font-family: 'Oswald', sans-serif;
+}
+
+.logo {
+    width: 200px;
+}
+
+.slideImg {
+    height: 500px;
+}
+
+.newarrival {
+    width: 200px;
+}
+
+.card-img-top {
+    height: 300px;
+}
+
+.productGrid {
+    width: 80%;
+}
+
+.toastLogo {
+    width: 120px;
+}
+
+.bk {
+    margin-left: 20px;
+    height: 25px;
+}
+
+.stickyDiv {
+
+    position: sticky;
+    top: 20%;
+    height: fit-content;
+}
+
+.upcoming {
+    width: 300px;
+}
+
+/* E80F88 */
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+/*-------------------------------------
+        10. News-letter
+--------------------------------------*/
+.newsletter {
+    padding: 120px 0 75px;
+}
+
+.hm-footer-widget {
+    margin-bottom: 30px;
+}
+
+.hm-foot-title h4 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 45px;
+}
+
+.hm-foot-menu ul li a {
+    color: #a09e9c;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 15px;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+}
+
+.hm-foot-menu ul li a:hover {
+    color: rgba(0, 0, 0, 0.349);
+    font-weight: 700;
+    -webkit-transform: translateX(10px);
+    -moz-transform: translateX(10px);
+    -ms-transform: translateX(10px);
+    -o-transform: translateX(10px);
+    transform: translateX(10px);
+}
+
+.hm-foot-para p {
+    font-size: 14px;
+    text-transform: initial;
+    margin-bottom: 25px;
+}
+
+
+.hm-foot-email {
+    position: relative;
+}
+
+.foot-email-box .form-control {
+    background: #fff;
+    display: block;
+    padding: 25px 15px;
+    outline: 0 !important;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .2);
+    border: 0;
+}
+
+.foot-email-box input[type="text"] {
+    font-size: 14px;
+    color: #bcb7b2;
+}
+
+.foot-email-subscribe {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50px;
+    height: 100%;
+    background: transparent;
+    color: #e99c2e;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.foot-email-box .form-control:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .4);
+}
+
+
+
+/*-------------------------------------
+        11. Footer
+--------------------------------------*/
+.footer {
+    background: #f8f9fd7c;
+    display: flex;
+    align-items: center;
+    height: 154px;
+}
+
+.hm-footer-copyright p,
+.hm-footer-copyright p a {
+    color: #a5adb3;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.footer-social a i {
+    color: #a4aaaf;
+    margin: 0 18px 24px 0;
+}
+
+.footer-social i:hover {
+    color: #e99c2e;
+
+}
+
+/* Review CSS */
+
+
+.testimonial-card .card-up {
+    height: 120px;
+    overflow: hidden;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+}
+
+.testimonial-card .avatar {
+    width: 110px;
+    margin-top: -60px;
+    overflow: hidden;
+    border: 3px solid #fff;
+    border-radius: 50%;
+}

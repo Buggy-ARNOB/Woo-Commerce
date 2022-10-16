@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Woo Commerce</title>
+
+    <link rel="icon" type="image/x-icon" href="asset/fav1.png">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+    </style>
+    <!-- CSS BS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="body">
+
+    <header>
+
+        <nav class="navbar navbar-expand-lg m-0 p-0" id="navigation">
+            <div class="container-fluid">
+                <div>
+                    <img class="logo" src="asset/logo.png" alt="">
+                </div>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto ms-auto mb-2 mb-lg-0 ">
+                        <li class="nav-item pe-4 ">
+                            <a class="nav-link active" aria-current="page" href="#navigation">Home</a>
+                        </li>
+
+                        <li class="nav-item pe-4 ">
+                            <a class="nav-link" href="#courses">Products</a>
+                        </li>
+
+                        <li class="nav-item pe-4 ">
+                            <a class="nav-link" href="#courses">Upcoming</a>
+                        </li>
+
+                        <li class="nav-item pe-4 ">
+                            <a class="nav-link" href="#faq">Review</a>
+                        </li>
+
+                        <li class="nav-item ">
+                            <a class="nav-link" href="#reg">About Us</a>
+                        </li>
+                    </ul>
+
+
+
+                    <button type="button" class="btn border border-primary bg-white text-primary fw-bold me-4">
+                        <i class="fa-brands fa-opencart"></i> Cart
+                    </button>
+
+                </div>
+            </div>
+        </nav>
+
+        <!-- Carousel Start -->
+        <section>
+
+            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+
+                        <div class="d-flex w-75 ms-auto me-auto">
+                            <div class="w-50 mt-auto mb-auto">
+                                <h3>Nike Air Jordar-1</h3>
+                                <p>
+                                    Experience the comfort....
+                                </p>
+                                <p>
+                                    Starting at 399$
+                                </p>
+                                <button class="btn btn-primary">Buy Now</button>
+                            </div>
+                            <div>
+                                <img src="asset/slide1.png" class="d-block slideImg" alt="...">
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+
+                        <div class="d-flex w-75 ms-auto me-auto">
+                            <div class="w-50 mt-auto mb-auto">
+                                <h3>Sony WH-1000XM4 Wireless (ANC)</h3>
+                                <p>
+                                    Experience the industry leading Active Noise Cancelation With Dynamic Dolby Sound
+                                    System....
+                                </p>
+                                <p>
+                                    Starting at 799$
+                                </p>
+                                <button class="btn btn-primary">Buy Now</button>
+                            </div>
+                            <div>
+                                <img src="asset/slide3.webp" class="d-block slideImg" alt="...">
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <div class="d-flex w-75 ms-auto me-auto">
+                            <div class="w-50 mt-auto mb-auto">
+                                <h3>Burberry Solid T-Shirt</h3>
+                                <p>
+                                    Lightweight as LIGHT
+                                </p>
+                                <p>
+                                    Starting at 199$
+                                </p>
+                                <button class="btn btn-primary">Buy Now</button>
+                            </div>
+                            <div>
+                                <img src="asset/slide2.webp" class="d-block slideImg" alt="...">
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+    </header>
+
+    <main class="mt-5">
+        <!-- Product -->
+        <div class="d-flex mt-5 justify-content-center">
+            <h2>Our Products</h2>
+
+        </div>
+        <section class="my-5 container" id="products">
+
+            <div class="d-flex mt-4">
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 productGrid">
+                    <div class="col">
+                        <div class="card p-3 pt-4 border border-0 shadow-lg h-100">
+                            <img src="asset/slide1.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Nikee Air Jordan-1</h5>
+                                <h5>$399</h5>
+                                <p class="card-text">Zina Sneakers in Gunmetal Leather</p>
+                            </div>
+                            <div class="m-3">
+                                <div class="btn btn-warning" onclick="addToCart(399) ">Buy Now</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card p-3 pt-4 border border-0 shadow-lg h-100">
+                            <img src="asset/slide2.webp" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Burberry Solid T-Shirt</h5>
+                                <h5>$199</h5>
+                                <p class="card-text">Fully Cotton 400GSM</p>
+                            </div>
+                            <div class="m-3">
+                                <div onclick="addToCart(199) " class="btn btn-warning">Buy Now</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card p-3 pt-4 border border-0 shadow-lg h-100">
+                            <img src="asset/slide3.webp" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Sony WH-1000XM4</h5>
+                                <h5>$799</h5>
+                                <p class="card-text">Offering Dolby Atmos</p>
+                            </div>
+                            <div class="m-3">
+                                <div onclick="addToCart(799) " class="btn btn-warning">Buy Now</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card p-3 pt-4 border border-0 shadow-lg h-100">
+                            <img src="asset/slide4.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Gucci Jogger Men</h5>
+                                <h5>$259</h5>
+                                <p class="card-text">Slim Fit.Stylish.Elegent</p>
+                            </div>
+                            <div class="m-3">
+                                <div onclick="addToCart(259)" class="btn btn-warning">Buy Now</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card p-3 pt-4 border border-0 shadow-lg h-100">
+                            <img src="asset/slide5.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Link E-Scooter WXB</h5>
+                                <h5>$899</h5>
+                                <p class="card-text">Level UP your gloomy life with Link E-Scooter</p>
+                            </div>
+                            <div onclick="addToCart(899) " class="m-3">
+                                <div class="btn btn-warning">Buy Now</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card p-3 pt-4 border border-0 shadow-lg h-100">
+                            <img src="asset/slide6.webp" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Sony PS 5</h5>
+                                <h5>$1099</h5>
+                                <p class="card-text">Play Has No Limits</p>
+                            </div>
+                            <div class="m-3">
+                                <div onclick="addToCart(1099)" class="btn btn-warning">Buy Now</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="stickyDiv ms-auto p-4 rounded-2 bg-light bg-opacity-25 ">
+                    <h3> <i class="fa-brands fa-opencart"></i> Your Cart</h3>
+                    <hr>
+                    <p>Total Product: <span id="totalProduct">0</span></p> </span>
+                    <p>Price: <span id="price">0 </span> $</p>
+                    <hr>
+                    <hr>
+                    <p>Delivery <span id="delivery">0 </span> $ </p>
+                    <p>Shipping Duty: <span id="shipping">0 </span> $ </p>
+                    <p>Tax: <span id="tax">0 </span> $</p>
+                    <p>Grand Total: <span id="incTax">0 </span>$</p>
+                    <button type="button" class="btn btn-primary" id="liveToastBtn">Checkout</button>
+
+                    <div class="toast-container position-fixed top-0 end-0 p-3">
+                        <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                            <div class="toast-header">
+                                <img src="asset/logo.png" class="rounded me-2 toastLogo" alt="...">
+                                <strong class="me-auto">Thank You</strong>
+                                <small>Just Now</small>
+                                <button type="button" class="btn-close" data-bs-dismiss="toast"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="toast-body">
+                                Payment Confirmed via
+                                <img class="bk me-2" src="asset/bk.png" alt=""> 016****7963
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Upcomming Product -->
+        <section class="container"><br>
+            <br>
+            <div class="d-flex justify-content-center">
+                <img class="upcoming" src="asset/upcoming.png" alt="">
+            </div>
+
+            <div class="d-flex row gx-5 justify-content-around">
+                <div class="col me-5 card p-3 pt-4 border border-0 shadow-lg h-100">
+                    <img src="asset/up1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Nike Men Tourer</h5>
+                        <h5>Price: * 59 $</h5>
+                        <p class="card-text">Pure Leather WaterProof Bag For You</p>
+                        <div class="d-flex mt-4 justify-content-center">
+
+                            <button type="button" class="btn btn-secondary" data-bs-container="body"
+                                data-bs-toggle="popover" data-bs-placement="top"
+                                data-bs-content="We Will Notify When It will be available">
+                                Pre-Book <i class="ms-2 fa-solid fa-bell"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="card me-5 col p-3 pt-4 border border-0 shadow-lg h-100">
+                    <img src="asset/up5.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Apple MK452HN/A iMac</h5>
+                        <h5>Price: ** 99 $</h5>
+                        <p class="card-text">Feel the thrill with mighty M20 Chip</p>
+
+                        <div class="mt-4 d-flex justify-content-center">
+
+                            <button type="button" class="btn btn-secondary" data-bs-container="body"
+                                data-bs-toggle="popover" data-bs-placement="top"
+                                data-bs-content="We Will Notify When It will be available">
+                                Pre-Book <i class="ms-2 fa-solid fa-bell"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="card col p-3 pt-4 border border-0 shadow-lg h-100">
+                    <img src="asset/up4.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Spider Man Action Figure</h5>
+                        <h5>Price: * 9 $</h5>
+                        <p class="card-text">Great power comes with great responsibility</p>
+                        <div class="d-flex mt-4 justify-content-center">
+
+                            <button type="button" class="btn btn-secondary" data-bs-container="body"
+                                data-bs-toggle="popover" data-bs-placement="top"
+                                data-bs-content="We Will Notify When It will be available">
+                                Pre-Book <i class="ms-2 fa-solid fa-bell"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <br>
+
+    </main>
+    <!-- Customer review -->
+    <section class="w-50 mt-5 pt-3 ms-auto me-auto">
+        <div class="w-75 ms-auto me-auto">
+
+            <div class="d-flex mb-3 justify-content-center">
+
+                <h1> <i class="fa-solid fa-quote-right"></i></h1>
+            </div>
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="card testimonial-card">
+                            <div class="card-up" style="background-color: #9d789b;"></div>
+                            <div class="avatar mx-auto bg-white">
+                                <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp"
+                                    class="rounded-circle img-fluid" />
+                            </div>
+                            <div class="card-body d-flex justify-content-center">
+                                <div>
+                                    <h4 class="mb-4">Maria Smantha</h4>
+                                    <hr />
+                                    <p class="dark-grey-text mt-4">
+                                        <i class="fas fa-quote-left pe-2"></i>I am very much happy with them. Highly
+                                        suggested
+                                        to everyone.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card testimonial-card">
+                            <div class="card-up" style="background-color: #7a81a8;"></div>
+                            <div class="avatar mx-auto bg-white">
+                                <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(2).webp"
+                                    class="rounded-circle img-fluid" />
+                            </div>
+                            <div class="card-body d-flex justify-content-center">
+                                <div>
+                                    <h4 class="mb-4">Lisa Cudrow</h4>
+                                    <hr />
+                                    <p class="dark-grey-text mt-4">
+                                        <i class="fas fa-quote-left pe-2"></i>Got a fabulous after-sales support.
+                                        Recommended!
+
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card testimonial-card">
+                            <div class="card-up" style="background-color: #6d5b98;"></div>
+                            <div class="avatar mx-auto bg-white">
+                                <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(9).webp"
+                                    class="rounded-circle img-fluid" />
+                            </div>
+                            <div class="card-body d-flex justify-content-center">
+                                <div>
+
+                                    <h4 class="mb-4">John Smith</h4>
+                                    <hr />
+                                    <p class="dark-grey-text mt-4">
+                                        <i class="fas fa-quote-left pe-2"></i>They offer great things in chip.Loved It!
+
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="newsletter" class="newsletter">
+        <div class="container">
+            <div class="hm-footer-details">
+                <div class="row">
+                    <div class=" col-md-3 col-sm-6 col-xs-12">
+                        <div class="hm-footer-widget">
+                            <div class="hm-foot-title">
+                                <h4>information</h4>
+                            </div>
+                            <!--/.hm-foot-title-->
+                            <div class="hm-foot-menu">
+                                <ul>
+                                    <li><a href="#">about us</a></li>
+                                    <!--/li-->
+                                    <li><a href="#">contact us</a></li>
+                                    <!--/li-->
+                                    <li><a href="#">news</a></li>
+                                    <!--/li-->
+                                    <li><a href="#">store</a></li>
+                                    <!--/li-->
+                                </ul>
+                                <!--/ul-->
+                            </div>
+                            <!--/.hm-foot-menu-->
+                        </div>
+                        <!--/.hm-footer-widget-->
+                    </div>
+                    <!--/.col-->
+                    <div class=" col-md-3 col-sm-6 col-xs-12">
+                        <div class="hm-footer-widget">
+                            <div class="hm-foot-title">
+                                <h4>collections</h4>
+                            </div>
+                            <!--/.hm-foot-title-->
+                            <div class="hm-foot-menu">
+                                <ul>
+                                    <li><a href="#">wooden chair</a></li>
+                                    <!--/li-->
+                                    <li><a href="#">royal cloth sofa</a></li>
+                                    <!--/li-->
+                                    <li><a href="#">accent chair</a></li>
+                                    <!--/li-->
+                                    <li><a href="#">bed</a></li>
+                                    <!--/li-->
+                                    <li><a href="#">hanging lamp</a></li>
+                                    <!--/li-->
+                                </ul>
+                                <!--/ul-->
+                            </div>
+                            <!--/.hm-foot-menu-->
+                        </div>
+                        <!--/.hm-footer-widget-->
+                    </div>
+                    <!--/.col-->
+                    <div class=" col-md-3 col-sm-6 col-xs-12">
+                        <div class="hm-footer-widget">
+                            <div class="hm-foot-title">
+                                <h4>my accounts</h4>
+                            </div>
+                            <!--/.hm-foot-title-->
+                            <div class="hm-foot-menu">
+                                <ul>
+                                    <li><a href="#">my account</a></li>
+                                    <!--/li-->
+                                    <li><a href="#">wishlist</a></li>
+                                    <!--/li-->
+                                    <li><a href="#">Community</a></li>
+                                    <!--/li-->
+                                    <li><a href="#">order history</a></li>
+                                    <!--/li-->
+                                    <li><a href="#">my cart</a></li>
+                                    <!--/li-->
+                                </ul>
+                                <!--/ul-->
+                            </div>
+                            <!--/.hm-foot-menu-->
+                        </div>
+                        <!--/.hm-footer-widget-->
+                    </div>
+                    <!--/.col-->
+                    <div class=" col-md-3 col-sm-6  col-xs-12">
+                        <div class="hm-footer-widget">
+                            <div class="hm-foot-title">
+                                <h4>newsletter</h4>
+                            </div>
+                            <!--/.hm-foot-title-->
+                            <div class="hm-foot-para">
+                                <p>
+                                    Subscribe to get latest news,update and information.
+                                </p>
+                            </div>
+                            <!--/.hm-foot-para-->
+                            <div class="hm-foot-email">
+                                <div class="foot-email-box">
+                                    <input type="text" class="form-control" placeholder="Enter Email Here....">
+                                </div>
+                                <!--/.foot-email-box-->
+                                <div class="foot-email-subscribe">
+                                    <span><i class="fa fa-location-arrow"></i></span>
+                                </div>
+                                <!--/.foot-email-icon-->
+                            </div>
+                            <!--/.hm-foot-email-->
+                        </div>
+                        <!--/.hm-footer-widget-->
+                    </div>
+                    <!--/.col-->
+                </div>
+                <!--/.row-->
+            </div>
+            <!--/.hm-footer-details-->
+
+        </div>
+        <!--/.container-->
+
+    </section>
+
+    <footer id="footer" class="footer">
+        <div class="container">
+            <div class="hm-footer-copyright text-center">
+                <div class="footer-social">
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="fa fa-instagram"></i></a>
+                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                    <a href="#"><i class="fa fa-pinterest"></i></a>
+                    <a href="#"><i class="fa fa-behance"></i></a>
+                </div>
+                <p>
+                    &copy;copyright. designed and developed by <a href="https://github.com/Buggy-ARNOB"><i
+                            class="fa-brands fs-3 mx-2 fa-github"></i> Buggy-ARNOB</a>
+                </p>
+                <!--/p-->
+            </div>
+            <!--/.text-center-->
+        </div>
+
+
+
+
+
+    </footer>
+
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/e91c72e050.js" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap v5.2 -->
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+
+    <!-- Vanilla JS -->
+    <script src="app.js"></script>
+</body>
+
+</html>
