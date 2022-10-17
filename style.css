@@ -1,5 +1,5 @@
 .body {
-    background-color: #B7C4CF;
+    background-color: #a5c9cabd;
     font-family: 'Oswald', sans-serif;
 }
 
@@ -65,7 +65,7 @@
         10. News-letter
 --------------------------------------*/
 .newsletter {
-    padding: 120px 0 75px;
+    padding: 120px 75px;
 }
 
 .hm-footer-widget {
@@ -168,7 +168,8 @@
 }
 
 .footer-social i:hover {
-    color: #e99c2e;
+    color: #f39a1e;
+    font-size: 1.2em;
 
 }
 
@@ -177,7 +178,7 @@
 
 .testimonial-card .card-up {
     height: 120px;
-    overflow: hidden;
+    /* overflow: hidden; */
     border-top-left-radius: 0.25rem;
     border-top-right-radius: 0.25rem;
 }
